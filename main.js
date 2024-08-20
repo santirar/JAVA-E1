@@ -1,7 +1,5 @@
 
 
-
-
 // PUNTO 1 
 
 // function parOImpar (numero1 , numero2) {
@@ -73,28 +71,69 @@
 
 // PUNTO 5
 
-// function palabraRepetida (nombre , numero){
-//   for(let i = 0; i <= nombre; i++) {
-//     if (i === nombre + 1) break;
-//     console.log(${nombre})
+// function palabraRepetida (nombre,numero){
+  
+//   let resultado = '';
+  
+//   for(let i = 0; i < numero; i++) {
+    
+//     resultado += nombre;
+
 //   }
+
+//   console.log(resultado)
 // }
 
-// let nombre = `Pepe`
-// palabraRepetida (7 , 5)
+// palabraRepetida ("consome" , 3)
 
 
 // PUNTO 6
 
-// const valores = [
-//   "1",
-//   "2",
-//   "3",
-//   "4"
-// ]
-// function arrayValores (valores1 , valores2){
-//   for (let nombre of valores)
-//     console.log(nombre)
+// function arrayValores (valores){
+
+//   for (let i = 0; i < valores.length; i++){
+
+//     console.log(valores[i])
+//   }
 // }
 
-// arrayValores (1)
+// const valores = ["1","2","3","4"]
+// arrayValores (valores)
+
+
+// PUNTO 7 
+
+// function miArray (valores){
+
+//   for (let i = 0; i < valores.length; i++){
+    
+//     if (valores[i] ==  5){
+//       continue;
+//     }
+//     console.log(valores[i])
+//   } 
+
+// }
+
+// const valores = ["1","2","3","4","5","6","7","8","9","10"]
+// miArray (valores)
+
+
+// PUNTO 8
+
+// function arrayMultiplicado (valores,multiplo){
+
+//   let resultado = [];
+
+//   for (let i = 0; i < valores.length; i++){
+
+//     resultado.push(valores[i] * multiplo);
+  
+//   }
+//     return resultado
+// }
+
+// const valores = ["3","5"]
+// let multiplo = 2;
+// let resultado = arrayMultiplicado (valores,multiplo);
+// console.log(resultado)
